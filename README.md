@@ -12,15 +12,17 @@
 * I tried to solve task 2 as code, just trying things out. 
 
 ### Assignment 1: 
-I missed this one since I only joined the course this week. Thanks for sharing the code with all of us. 
+* I missed this one because I only joined the course this week. Thanks for sharing the code with all of us. 
 
 ## Notes for myself
 #### Assigment2 : 
+"
 1. In our newly created module 'input_output.py', add a method for writing a set into a text file.
 
 2. We saw that we can not properly sort a set/list containing German words with the standard sorted() function. How can we solve this?
 
 3. Read the TEI Chapter for Dictionaries: http://www.tei-c.org/release/doc/tei-p5-doc/en/html/DI.htm
+"
 
 #### Useful links: 
 ##### Text Processing with python in general
