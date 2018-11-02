@@ -1,5 +1,7 @@
 # digi_lex
 
+## Notes for the lecturer
+
 ### General thoughts: 
 I am the one who joined the course this week and asked about using her own data. For this week's assigment (assigment 2) I have not used my own data yet. But I will try to work with my own data from next week on. 
 
@@ -12,7 +14,8 @@ I just commented in 'parse-beolingus' this time.
 ### Assignment 1: 
 I missed this one since I only joined the course this week. Thanks for sharing the code with all of us. 
 
-### Notes for myself
+
+## Notes for myself
 #### Assigment2 : 
 1. In our newly created module 'input_output.py', add a method for writing a set into a text file.
 
