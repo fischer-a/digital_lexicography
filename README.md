@@ -1,19 +1,18 @@
 # digi_lex
 
-## Notes for the lecturer
+## Notes for Francisco
 
 ### General thoughts: 
-I am the one who joined the course this week and asked about using her own data. For this week's assigment (assigment 2) I have not used my own data yet. But I will try to work with my own data from next week on. 
-
-Thanks for letting me join the course. 
+* I am the one who joined the course this week and asked about using her own data. For this week's assigment (assigment 2) I have not used my own data yet. But I will try to work with it from next week on. Thanks for letting me join the course. 
+* missed the first 2 weeks of class, I hope I got everything right about how to do the assignments in general. 
+* have not worked with Github before. In case something is not working out in terms of access etc., please let me know.
 
 ### Assigment 2: 
-Since I missed the two weeks of class, I am now sure if we are to comment our code or write something somewhere else. 
-I just commented in 'parse-beolingus' this time. 
+* There are comments in parse_beolingus.py.
+* I tried to solve task 2 as code, just trying things out. 
 
 ### Assignment 1: 
 I missed this one since I only joined the course this week. Thanks for sharing the code with all of us. 
-
 
 ## Notes for myself
 #### Assigment2 : 
