@@ -1,6 +1,8 @@
 import re
 import locale ##### added for assignment 2
 import pprint ##### added for assignment 2
+import pyuca # added by Francisco
+import unicodedata # for c in e: print(c, unicodedata.name(c)) # ADDED BY FRANCISCO
 
 import input_output
 
@@ -108,14 +110,26 @@ def sort_list(list):
         counter+=1
     return(sorted_list)
 
+##### 2.2 IN CLASS	
+def new_sort_set(set_to_sort):
+	coll = pyuca.Collator() #collator is something that sorts :-)
+	set_to_sort = sorted(set_to_sort, key=coll.sort_key)
+	#for e in set_to_sort: 
+		#for c in e: 
+			#print(c, unicodedata.name(c))
+	return set_to_sort
+	
 ###### 2.1. ADD METHOD FOR WRITING A SET INTO A TEXT FILE#######
-sorted_set=sort_list(almost_sorted_set)
+#sorted_set=sort_list(almost_sorted_set) 2.2. MYSELF
+sorted_set=new_sort_set(almost_sorted_set) # 2.2. IN CLASS
 input_output.write_set('data/sorted_set.txt', sorted_set)
 sorted_set=txt_as_list('data/sorted_set.txt')
 #input_output.serialize('data/sorted_set.pickle', sorted_set)
 #sorted_set=input_output.deserialize('data/sorted_set.pickle')
 pprint.pprint(sorted_set)
 
+#### locale and x not very transparent?
+#### Joel Spolsky ... what a software developer should know
 #locale.setlocale(locale.LC_ALL, 'de_DE')
 #sorted_set=set.sort(key=lambda i: locale.strxfrm(i[0]))
 
