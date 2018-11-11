@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>German-Englisch Dict</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Data source by Frank Richter frank.richter.tu-chemnitz.de</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source: http://dict.tu-chemnitz.de/</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+      <superEntry>
+         <entry>
+            <form type="lemma">
+               <orth>A</orth>
+            </form>
+            <gramGrp>
+               <gram type="gen">n</gram>
+            </gramGrp>
+            <sense>
+               <cit type="translation" xml:lang="en">
+                  <quote>A</quote>
+               </cit>
+            </sense>
+         </entry>
+            <entry>
+               <form type="lemma">
+                  <orth>Ais</orth>
+               </form>
+               <gramGrp>
+                  <gram type="gen">n</gram>
+               </gramGrp>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>A sharp</quote>
+                  </cit>
+               </sense>
+            </entry>
+            <entry>
+               <form type="lemma">
+                  <orth>As</orth>
+               </form>
+               <gramGrp>
+                  <gram type="gen">n</gram>
+               </gramGrp>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>A flat</quote>
+                  </cit>
+               </sense>
+            </entry>
+            <entry>
+               <form type="lemma">
+                  <orth>Aisis</orth>
+               </form>
+               <gramGrp>
+                  <gram type="gen">n</gram>
+               </gramGrp>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>A double sharp</quote>
+                  </cit>
+               </sense>
+            </entry>
+            <entry>
+               <form type="lemma">
+                  <orth>Ases</orth>
+               </form>
+               <gramGrp>
+                  <gram type="gen">n</gram>
+               </gramGrp>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>A double flat</quote>
+                  </cit>
+               </sense>
+            </entry>
+            <entry>
+               <form type="lemma">
+                  <orth>Ais</orth>
+               </form>
+               <gramGrp>
+                  <gram type="gen">n</gram>
+               </gramGrp>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>A sharp</quote>
+                  </cit>
+               </sense>
+            </entry>
+            <entry>
+               <form type="lemma">
+                  <orth>A-Dur</orth>
+               </form>
+               <gramGrp>
+                  <gram type="gen">n</gram>
+               </gramGrp>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>A major</quote>
+                  </cit>
+               </sense>
+            </entry>
+         </superEntry>
+         <superEntry>
+            <entry>
+               <form type="lemma">
+                  <orth>das A und O</orth>
+               </form>
+               <usg value="reg">coll</usg>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>the nuts and bolts</quote>
+                  </cit>
+               </sense>              
+            </entry>
+         </superEntry>
+         <superEntry>
+            <entry>
+               <form type="lemma">
+                  <orth>A- und B-Boden</orth>
+               </form>
+               <gramGrp>
+                  <gram type="gen">m</gram>
+               </gramGrp>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>A and B horizons</quote>
+                  </cit>
+               </sense>                 
+            </entry>
+            <entry>
+               <form type="lemma">
+                  <orth>A- und B-Horizont (des Bodenprofils)</orth>
+               </form>
+               <gramGrp>
+                  <gram type="gen">m</gram>
+               </gramGrp>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>solum</quote>
+                  </cit>
+               </sense>  
+            </entry>
+            <entry>
+               <form type="inflected">
+                  <orth>A- und B-Böden</orth>
+               </form>
+               <gramGrp>
+                  <gram type="num">pl</gram>
+               </gramGrp>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>A and B horizons</quote>
+                  </cit>
+               </sense>                 
+            </entry>
+            <entry>
+               <form type="inflected">
+                  <orth>A- und B-Horizonte</orth>
+               </form>
+               <gramGrp>
+                  <gram type="num">pl</gram>
+               </gramGrp>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>sola solums</quote>
+                  </cit>
+               </sense>          
+            </entry>
+         </superEntry>
+         <superEntry>
+            <entry>
+               <form type="inflected">
+                  <orth>Aale</orth>
+               </form>
+               <gramGrp>
+                  <gram type="num">pl</gram>
+               </gramGrp>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>eels (zoological order</quote>
+                  </cit>
+               </sense>                 
+            </entry>
+            <entry>
+               <form type="inflected">
+                  <orth>Aalartige (Anguilliformes) (zoologische Ordnung)</orth>
+               </form>
+               <gramGrp>
+                  <gram type="num">pl</gram>
+               </gramGrp>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>eels (zoological order</quote>
+                  </cit>
+               </sense>                 
+            </entry>
+         </superEntry>
+         <superEntry>
+            <entry>
+               <form type="inflected">
+                  <orth>echte Aale</orth>
+               </form>
+               <gramGrp>
+                  <gram type="num">pl</gram>
+               </gramGrp>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>freshwater eels</quote>
+                  </cit>
+               </sense>                 
+            </entry>
+            <entry>
+               <form type="inflected">
+                  <orth>Flussaale</orth>
+               </form>
+               <gramGrp>
+                  <gram type="num">pl</gram>
+               </gramGrp>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>anguilla (zoological genus)</quote>
+                  </cit>
+               </sense>                 
+            </entry>
+            <entry>
+               <form type="inflected">
+                  <orth>Süßwasseraale (Anguilla) (zoologische Gattung)</orth>
+               </form>
+               <gramGrp>
+                  <gram type="num">pl</gram>
+               </gramGrp>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>anguilla (zoological genus)</quote>
+                  </cit>
+               </sense>                 
+            </entry>
+            <entry>
+               <form type="lemma">
+                  <orth>Aal grün</orth>
+               </form>
+               <form type="lemma">
+                  <orth>grüner All [cook]</orth>
+               </form>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Boiled Eel served with Parsely Sauce</quote>
+                  </cit>
+               </sense>                 
+            </entry>
+            <entry>
+               <form type="lemma">
+                  <orth>Aal blau</orth>
+               </form>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Eel au bleu</quote>
+                  </cit>
+               </sense>                 
+            </entry>
+            <entry>
+               <form type="lemma">
+                  <orth>blauer All [cook]</orth>
+               </form>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Eel steamed and served with Butter</quote>
+                  </cit>
+               </sense>                 
+            </entry>
+            <entry>
+               <form type="lemma">
+                  <orth>Aal in Aspik</orth>
+               </form>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Jellied Eel</quote>
+                  </cit>
+               </sense>                 
+            </entry>
+            <entry>
+               <form type="lemma">
+                  <orth>Aal in Gelee [cook]</orth>
+               </form>
+               <sense>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Jellied Eel</quote>
+                  </cit>
+               </sense>                 
+            </entry>
+         </superEntry>
+      </body>
+  </text>
+</TEI>
