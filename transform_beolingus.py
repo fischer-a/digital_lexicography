@@ -46,17 +46,18 @@ def transform_in_tei(beo_as_dict):
             for f in split_forms:
                 f = f.lstrip()
                 form = etree.SubElement(entry, 'form')
-                orth = etree.SubElement(form, 'orth')
-                #orth_pattern = re.compile(r'(.+)({|\[|\()+?')
-                #f = orth_pattern.sub('\g<1>', f)[0]
-                orth.text = f
-                gram_pattern = re.compile(r'{.+?}')
-                gram_match = gram_pattern.findall(f)
-                if gram_match:
-                    gramGrp = etree.SubElement(form, 'gramGrp')
-                    for g in gram_match:
-                        gram = etree.SubElement(gramGrp, 'gram')
-                        gram.text = g
+                orth_pattern = re.compile(r'^(.+?)(?={|\[|\(|$)')
+                orth_match = orth_pattern.findall(f)
+                for o in orth_match:
+                    orth = etree.SubElement(form, 'orth')
+                    orth.text = o.strip()
+                    gram_pattern = re.compile(r'{.+?}')
+                    gram_match = gram_pattern.findall(f)
+                    if gram_match:
+                        gramGrp = etree.SubElement(form, 'gramGrp')
+                        for g in gram_match:
+                            gram = etree.SubElement(gramGrp, 'gram')
+                            gram.text = g
 
                 usg_pattern = re.compile(r'\[.+?\]')
                 usg_match = usg_pattern.findall(f)
@@ -75,7 +76,7 @@ def transform_in_tei(beo_as_dict):
 
             for s in split_senses:
                 sense = etree.SubElement(entry, 'sense')
-                sense.text = s
+                sense.text = s.strip()
                 '''
                 gram_pattern = re.compile(r'{.+?}')
                 gram_match = gram_pattern.findall(s)
